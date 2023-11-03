@@ -1,7 +1,7 @@
 export async function GET() {
   let a = 0;
 
-  for (let i = 0; i < 5_000_000_000; i++) {
+  for (let i = 0; i < 1_000_000_000; i++) {
     a += 1;
   }
 
@@ -11,7 +11,7 @@ export async function GET() {
 export async function POST() {
   let a = 0;
 
-  for (let i = 0; i < 5_000_000_000; i++) {
+  for (let i = 0; i < 1_000_000_000; i++) {
     a += 1;
   }
 
