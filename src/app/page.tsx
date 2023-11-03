@@ -7,7 +7,6 @@ export default function Home() {
 
   useEffect(() => {
     fetch("/api").then((res) => res.json()).then((value) => setData(value))
-    fetch("/api", {next: {tags: ["a"]}}).then((res) => res.json()).then((value) => setData(value))
   }, []);
 
   return (
